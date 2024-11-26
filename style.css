@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.side {
+    position: fixed;
+    background-color: rgb(58, 28, 158);
+    left: 0;
+    width: 250px;
+    padding: 30px 20px;
+    top: 0;
+    bottom: 0;
+}
+
+.container {
+    margin-left: 250px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.sidebar {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lorem1 {
+    margin: 20px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flash {
+    margin-bottom: 50px;
+}
+
+i {
+    color: white;
+    margin-right: 15px;
+}
+
+.homediv {
+    width: 100%;
+    border: 2px solid rgb(81, 46, 197);
+    margin: 10px 0;
+}
+
+h3 {
+    color: white;
+    margin: 50px 0 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(81, 46, 197);
+    background-color: rgb(81, 46, 197);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 50px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.lorem2 {
+    color: white;
+}
